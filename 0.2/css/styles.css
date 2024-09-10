@@ -1,0 +1,28 @@
+/*****************************************TAG SELECTORS*******************************************/
+body
+{
+    background-color: #FECDA6;
+    margin: 0;
+}
+
+/*****************************************CLASS SELECTORS*******************************************/
+.header
+{
+    background-color: #FF9130;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+}
+
+.logo
+{
+    height: auto;
+    width: 10%;
+}
+
+.p1
+{
+    float: right;
+    padding: 20px;
+    padding-top: 120px;
+}
