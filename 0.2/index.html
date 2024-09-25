@@ -1,25 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heladerías Aloha</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="images/favicon.ico">
+
+    <!-- Bootstrap CSS & JS bundle-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <!-- Font families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <div class="top_container">
-        <div class="header">
-            <img class="logo" src="images/logo.png" alt="Helados Aloha logo">
-            <a class="p1" href="index.html"> Inicio</a>
-            <a class="p1" href="">Productos</a>
-            <a class="p1" href="">Sabores</a>
-            <a class="p1" href="">Nosotros</a>
-            <a class="p1" href="">Contactanos</a>
+    <header class="container-fluid">
+
+        <!-- Navigation Bar -->
+        <nav class="navbar fixed-top navbar-expand-lg dark_container top_navbar">
+
+            <!-- Logo -->
+            <a class="navbar-brand nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+                <img class="logo" src="images/logo1.png" alt="logo">
+            </a>
+
+            <!-- Toggler menu-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#top_navbar" aria-controls="top_navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end"" id="top_navbar">
+                <ul class="navbar-nav menu_list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Sabores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Home Section -->
+        <section id="home_section">
+            <div>
+                <div class="row">
+                    <div class="col-lg-6 home_text">
+                        <h1>Comete un helado</h1>
+                        <h1 class="orange_text">Disfrutá la vida</h1>
+                        <h3>Sabores explosivos y novedosos<br> Bocados de felicidad</h3>
+                        <button type="button" class="btn btn-lg btn-outline-dark btn-flavors">Explorar sabores</button>
+                    </div>
+                    <div class="col-lg-6 h-img">
+                        <img class="home_img" src="images/choco_pinta.png" alt="Pinta de helado">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    
+    
+    <!-- Products Section-->
+    <section class="dark_container container-fluid">
+        <div class="section_2">
+            <h2>Elegí tu helado favorito</h2>
+            <h4>¿Cuál preferís probar hoy?</h4>
         </div>
 
-    </div>
-    <div class="middle_container">
+        <div class="row products">
+            <a class="col-lg-3 col-md-6 product_img" href=""><img class="img-fluid" src="images/conos.png" alt="conos y paletas"></a>
+            <a class="col-lg-3 col-md-6 product_img" href=""><img class="img-fluid" src="images/postres.png" alt="postres"></a>
+            <a class="col-lg-3 col-md-6 product_img" href=""><img class="img-fluid" src="images/torta_helada.png" alt="tortas heladas"></a>
+            <a class="col-lg-3 col-md-6 product_img" href=""><img class="img-fluid" src="images/pintas.png" alt="pintas"></a>
+        </div>
+            
+        
+        
+
+    </section>
 
     </div>
     <div class="bottom_container">

@@ -1,28 +1,101 @@
 /*****************************************TAG SELECTORS*******************************************/
 body
 {
-    background-color: #FECDA6;
+    font-family: "Montserrat", serif;
     margin: 0;
+    background-color: #fce0c9;
+    color: black;
+    padding-top: 10%;
 }
+
+h1{
+    font-size: 500%;
+    font-weight: bolder;
+}
+h2{
+    font-weight: bolder;
+    padding: 1% 0;
+}
+h3{
+    padding: 2.5rem 0;
+    line-height: 1.5;
+}
+
 
 /*****************************************CLASS SELECTORS*******************************************/
-.header
-{
-    background-color: #FF9130;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    padding-left: 25px;
+.container-fluid{
+    padding: 3% 10%;
+}
+.dark_container{
+    background-color: #FF7800;
+    color: white;
+}
+.orange_text{
+    color: #FF7800;
 }
 
+/* Nav Bar */
+.menu_list{
+    margin-right: 20%;
+}
+
+.navbar{
+    padding: 0;
+}
 .logo
 {
     height: auto;
-    width: 10%;
+    width: 75%;
+    margin-left: 35%;
 }
 
-.p1
-{
-    float: right;
-    padding: 20px;
-    padding-top: 120px;
+.nav-item{
+    padding: 0 3%;
+    position: relative;
+    text-align: right;
+}
+.nav-link{
+    color: white;
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+}
+
+/* Home section */
+#home_section{
+    padding: 0 0 7%;
+}
+
+.h-img{
+    position: relative;
+}
+
+.home_img{
+    height: auto;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-flavors{
+    --bs-btn-font-weight: bolder;
+    --bs-btn-border-color: #FF7800;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #FF7800;
+    --bs-btn-hover-border-color: #FF7800;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+  }
+.section_2{
+    padding: 3% 0;
+    text-align: center;
+}
+
+.products{
+    position: relative;
+}
+
+.product_img{
+    padding: 1.5%;
 }
