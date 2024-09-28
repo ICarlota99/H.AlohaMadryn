@@ -1,52 +1,55 @@
 /*****************************************TAG SELECTORS*******************************************/
 body
 {
-    font-family: "Montserrat", serif;
-    margin: 0;
     background-color: #fce0c9;
     color: black;
-    padding-top: 10%;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
 }
-
-h1{
-    font-size: 500%;
+h1, h2, h3{
     font-weight: bolder;
-}
-h2{
-    font-weight: bolder;
-    padding: 1% 0;
-}
-h3{
-    padding: 2.5rem 0;
     line-height: 1.5;
+    padding: 3%;
+}
+span{
+    color: #FF7800;
 }
 
-
-/*****************************************CLASS SELECTORS*******************************************/
+/* General css */
 .container-fluid{
-    padding: 3% 10%;
+    padding: 7% 10%;
 }
+
 .dark_container{
     background-color: #FF7800;
     color: white;
 }
-.orange_text{
-    color: #FF7800;
+
+.sucursal{
+    font-family: "Playwrite DK Loopet", cursive;
+    font-size: 200%;
+    font-weight: bold;
+    padding: 1%;
 }
 
-/* Nav Bar */
+/* Nav Bar Section*/
 .menu_list{
-    margin-right: 20%;
+    padding-right: 30%;
 }
 
-.navbar{
+.navbar-brand{
+    height: 20%;
+    margin: 0;
     padding: 0;
+    width: 20%;
 }
+
 .logo
 {
+    display: inline-block;
     height: auto;
-    width: 75%;
     margin-left: 35%;
+    width: 30%;
 }
 
 .nav-item{
@@ -54,40 +57,49 @@ h3{
     position: relative;
     text-align: right;
 }
+
 .nav-link{
     color: white;
-    font-family: "Montserrat";
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
-/* Home section */
-#home_section{
-    padding: 0 0 7%;
+/* Home Section */
+.title{
+    font-size: 400%;
 }
-
 .h-img{
     position: relative;
 }
 
 .home_img{
-    height: auto;
-    width: 90%;
     display: block;
-    margin: 0 auto;
+    height: auto;
+    margin: auto;
+    transform: rotate(25deg);
+    width: 100%;
 }
 
 .btn-flavors{
     --bs-btn-font-weight: bolder;
     --bs-btn-border-color: #FF7800;
-    --bs-btn-hover-color: white;
+    --bs-btn-hover-color: rgb(61, 59, 59);
     --bs-btn-hover-bg: #FF7800;
-    --bs-btn-hover-border-color: #FF7800;
+    --bs-btn-hover-border-color: white;
     --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-color: #FF7800;
     --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
     --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
-  }
-.section_2{
+    --bs-btn-color: white;
+    --bs-btn-bg: #FF7800;
+    margin: 4%;
+}
+
+.fa-arrow-right{
+    padding-right: 1%;
+}
+
+/* Products and Flavors Sections */
+.section_2, #flavors{
     padding: 3% 0;
     text-align: center;
 }
@@ -98,4 +110,61 @@ h3{
 
 .product_img{
     padding: 1.5%;
+}
+
+.product_img:hover{
+    border-color: #fce0c9;
+    border-style: dotted;
+    border-width: 1rem;
+    
+}
+
+.flavor_img{
+    border-radius: 100%;
+    height: auto;
+    width: 25%;
+}
+
+/* Nosotros Section */
+.info{
+    font-size: 125%;
+    line-height: 1.7;
+    padding: 1%;
+    position: static;
+}
+
+.info a{
+    color: white;
+}
+
+.info a:hover{
+    color: black;
+}
+
+.local_front_img{
+    height: auto;
+    float: right;
+    padding: 0 0 3% 3%;
+    width: 30%;
+}
+
+/* Footer */
+#footer{
+    padding: 3%;
+    text-align: center;
+}
+
+.social{
+    color: black;
+    display: inline-block;
+    padding: 1% 2%;
+    text-decoration: none;
+}
+
+.social:hover{
+    color: #FF7800;
+}
+
+.copyright{
+    margin-top: 4%;
 }
