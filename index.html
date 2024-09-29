@@ -23,8 +23,7 @@
 </head>
 
 <body>
-    <header class="container-fluid">
-
+    <header>
         <!-- Navigation Bar -->
         <nav class="navbar navbar-dark fixed-top navbar-expand-lg dark_container top_navbar">
 
@@ -65,26 +64,25 @@
                 </ul>
             </div>
         </nav>
+    </header>
 
         <!-- Home Section -->
-        <section id="home_section" class="container-fluid">
-            <div>
-                <div class="row">
-                    <div class="col-lg-6 home_text">
-                        <h1 class="title">Comete un helado <br>
-                             <span>Disfrutá la vida</span></h1>
-                        <h3>Sabores explosivos y novedosos<br> Bocados de felicidad</h3>
-                        <button type="button" class="btn btn-lg btn-outline-dark btn-flavors">Explorar sabores <i class="fa-solid fa-arrow-right"></i></button>
-                    </div>
-                    <div class="col-lg-6 h-img">
-                        <img class="home_img" src="images/home_icecream.png" alt="Pinta de helado">
-                    </div>
+    <section id="home_section" class="container-fluid">
+        <div>
+            <div class="row">
+                <div class="col-lg-6 home_text">
+                    <h1 class="title">Comete un helado <br>
+                        <span>Disfrutá la vida</span></h1>
+                    <h3>Sabores explosivos y novedosos<br> Bocados de felicidad</h3>
+                    <button type="button" class="btn btn-lg btn-outline-dark btn-flavors">Explorar sabores <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="col-lg-6 h-img">
+                    <img class="home_img" src="images/home_icecream.png" alt="Pinta de helado">
                 </div>
             </div>
-        </section>
-    </header>
-    
-    
+        </div>
+    </section>
+     
     <!-- Products Section-->
     <section id="products" class="dark_container container-fluid">
         <div class="section_2">
@@ -93,10 +91,10 @@
         </div>
         <!-- Product options -->
         <div class="row products">
-            <a class="col-lg-3 col-sm-6 product_img" href=""><img class="img-fluid" src="images/conos.png" alt="conos y paletas"></a>
-            <a class="col-lg-3 col-sm-6 product_img" href=""><img class="img-fluid" src="images/postres.png" alt="postres"></a>
-            <a class="col-lg-3 col-sm-6 product_img" href=""><img class="img-fluid" src="images/torta_helada.png" alt="tortas heladas"></a>
-            <a class="col-lg-3 col-sm-6 product_img" href=""><img class="img-fluid" src="images/pintas.png" alt="pintas"></a>
+            <a class="col-lg-3 col-md-6 product_img" href=""><img class="img-fluid" src="images/conos.png" alt="conos y paletas"></a>
+            <a class="col-lg-3 col-md-6 product_img" href=""><img class="img-fluid" src="images/postres.png" alt="postres"></a>
+            <a class="col-lg-3 col-md-6 product_img" href=""><img class="img-fluid" src="images/torta_helada.png" alt="tortas heladas"></a>
+            <a class="col-lg-3 col-md-6 product_img" href=""><img class="img-fluid" src="images/pintas.png" alt="pintas"></a>
             
         </div>
     </section>
@@ -105,6 +103,7 @@
     <section id="flavors" class="container-fluid">
         <h2>Explorá nuestros sabores más populares</h2>
 
+        <!-- Carousel -->
         <div id="flavors_carousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="2500">

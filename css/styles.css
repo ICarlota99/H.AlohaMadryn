@@ -4,12 +4,10 @@ body
     background-color: #fce0c9;
     color: black;
     font-family: "Montserrat", sans-serif;
-    margin: 3rem 0 0;
 }
 h1, h2, h3{
     font-weight: bolder;
     line-height: 1.5;
-    padding: 3%;
 }
 span{
     color: #FF7800;
@@ -17,7 +15,7 @@ span{
 
 /* General css */
 .container-fluid{
-    padding: 5% 10%;
+    padding: 6% 10%;
 }
 
 .dark_container{
@@ -30,6 +28,11 @@ span{
     font-size: 200%;
     font-weight: bold;
     padding: 1%;
+}
+
+/* Centered sections */
+#products, #flavors, #footer{
+    text-align: center;
 }
 
 /* Nav Bar Section*/
@@ -67,8 +70,12 @@ span{
 .title{
     font-size: 400%;
 }
+.home_text{
+    padding-top: 10%;
+}
 .h-img{
     position: relative;
+    padding-top: 3%;
 }
 
 .home_img{
@@ -85,10 +92,7 @@ span{
     --bs-btn-hover-color: rgb(61, 59, 59);
     --bs-btn-hover-bg: #FF7800;
     --bs-btn-hover-border-color: white;
-    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
     --bs-btn-active-color: #FF7800;
-    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
-    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
     --bs-btn-color: white;
     --bs-btn-bg: #FF7800;
     margin: 4%;
@@ -98,18 +102,13 @@ span{
     padding-right: 1%;
 }
 
-/* Products and Flavors Sections */
-.section_2, #flavors{
-    padding: 3% 0;
-    text-align: center;
-}
-
+/* Products Section */
 .products{
     position: relative;
 }
 
 .product_img{
-    padding: 1.5%;
+    padding: 2%;
 }
 
 .product_img:hover{
@@ -119,10 +118,11 @@ span{
     
 }
 
+/* Flavors Section  */
 .flavor_img{
     border-radius: 100%;
-    height: auto;
-    width: 25%;
+    padding: 3%;
+    width: 30%;
 }
 
 /* Nosotros Section */
@@ -144,16 +144,11 @@ span{
 .local_front_img{
     height: auto;
     float: right;
-    padding: 0 0 3% 3%;
+    padding-left: 3%;
     width: 30%;
 }
 
 /* Footer */
-#footer{
-    padding: 3%;
-    text-align: center;
-}
-
 .social{
     color: black;
     display: inline-block;
@@ -172,11 +167,8 @@ span{
 
 /* Mobile Phone Responsiveness */
 @media (max-width: 500px) {
-    h3{
-        font-size: 16px;
-    }
     p {
-      font-size: 12px;
+      font-size: 14px;
     }
 
 
@@ -187,6 +179,13 @@ span{
       .sucursal {
         font-size: 18px;
       }
+      .flavor_img{
+        width: 70%;
+    }
+      .local_front_img{
+        height: auto;
+        width: 60%;
+    }
 }
 
 @media (max-width: 900px) {
