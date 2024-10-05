@@ -4,6 +4,7 @@ body
     background-color: #fce0c9;
     color: black;
     font-family: "Montserrat", sans-serif;
+    padding-top: 5%;
 }
 h1, h2, h3{
     font-weight: bolder;
