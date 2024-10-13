@@ -9,6 +9,10 @@ h1, h2, h3{
     font-weight: bolder;
     line-height: 1.5;
 }
+a{
+    color: #fce0c9;
+    text-decoration: none;
+}
 span{
     color: #FF7800;
 }
@@ -28,11 +32,6 @@ span{
     font-size: 200%;
     font-weight: bold;
     padding: 1%;
-}
-
-/* Centered sections */
-#products, #flavors, #footer{
-    text-align: center;
 }
 
 /* Nav Bar Section*/
