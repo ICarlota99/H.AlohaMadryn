@@ -1,137 +1,160 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heladerías Aloha-Puerto Madryn</title>
-    <link rel="icon" href="images/favicon.ico">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Heladerías Aloha-Puerto Madryn</title>
 
-    <!-- Bootstrap CSS & JS bundle-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
-    <!-- Font families -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DK+Loopet:wght@100..400&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/246833f4ba.js" crossorigin="anonymous"></script>
+        <!-- Favicon -->
+        <link rel="icon" href="images/favicon.ico"/>
 
-    <!-- My CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+        <!-- Bootstrap CSS & JS bundle-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-<body>
-    <!-- Navbar Section -->
-    <div id="navbar-container"></div>
+        <!-- Font families -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DK+Loopet:wght@100..400&display=swap" rel="stylesheet"/>
 
+        <!-- Font Awesome Icons -->
+        <script src="https://kit.fontawesome.com/246833f4ba.js" crossorigin="anonymous"></script>
 
-    <!-- Home Section -->
-    <section id="home_section" class="container-fluid">
-        <div>
+        <!-- My CSS -->
+        <link rel="stylesheet" href="css/styles.css"/>
+    </head>
+
+    <body>
+        <!-- Navbar Section -->
+        <div id="navbar-container"></div>
+
+        <!-- Home Section -->
+        <section id="home_section" class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 home_text">
-                    <h1 class="title">Comete un helado <br>
-                        <span>Disfrutá la vida</span></h1>
-                    <h3>Sabores explosivos y novedosos<br> Bocados de felicidad</h3>
-                    <button type="button" class="btn btn-lg btn-outline-dark btn-flavors">Explorar sabores <i class="fa-solid fa-arrow-right"></i></button>
+                    <h1 class="title">Comete un helado <br/>
+                    <span>Disfrutá la vida</span>
+                    </h1>
+                    <h3>Sabores explosivos y novedosos<br/>
+                    Bocados de felicidad
+                    </h3>
+                    <button type="button" class="btn btn-lg btn-outline-dark btn-flavors">
+                        Explorar sabores <i class="fa-solid fa-arrow-right"></i>
+                    </button>
                 </div>
                 <div class="col-lg-6 h-img">
-                    <img class="home_img" src="images/home_icecream.png" alt="Pinta de helado">
+                    <img class="home_img" src="images/home_icecream.png" alt="Pinta de helado"/>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-     
-    <!-- Products Section-->
-    <section id="products" class="dark_container container-fluid">
-        <div class="section_2">
-            <h2>Elegí tu helado favorito</h2>
-            <h4>¿Cuál preferís probar hoy?</h4>
-        </div>
-        <!-- Product options -->
-        <div class="row products">
-            <a class="col-lg-3 col-md-6 product_img" href="conos_y_paletas.html"><img class="img-fluid" src="images/conos.png" alt="conos y paletas"></a>
-            <a class="col-lg-3 col-md-6 product_img" href="postres_helados.html"><img class="img-fluid" src="images/postres.png" alt="postres"></a>
-            <a class="col-lg-3 col-md-6 product_img" href="pintas_y_baldes.html"><img class="img-fluid" src="images/pintas.png" alt="pintas"></a>
-            <a class="col-lg-3 col-md-6 product_img" href="tortas_heladas.html"><img class="img-fluid" src="images/torta_helada.png" alt="tortas heladas"></a> 
-        </div>
-    </section>
-
-
-    <!-- Flavors Section -->
-    <section id="flavors" class="container-fluid">
-        <h2>Explorá nuestros sabores más populares</h2>
-
-        <!-- Carousel -->
-        <div id="flavors_carousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark" data-bs-interval="2500">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="flavor_img" src="images/flavors/alfajor_marplatense.jpg" class="d-block w-100" alt="Alfajor marplatense">
-                <h3>Alfajor marplatense</h3>
-              </div>
-              <div class="carousel-item">
-                <img class="flavor_img" src="images/flavors/chocorrica.jpg" class="d-block w-100" alt="Chocorrica">
-                <h3>Chocorrica</h3>
-              </div>
-              <div class="carousel-item">
-                <img class="flavor_img" src="images/flavors/mousse_de_chocolate_con_frutilla.jpg" class="d-block w-100" alt="Mousse de chocolate con frutilla">
-                <h3>Mousse de chocolate con frutilla</h3>
-              </div>
-              <div class="carousel-item">
-                <img class="flavor_img" src="images/flavors/cookies_and_cream.jpg" class="d-block w-100" alt="Cookies and cream">
-                <h3>Cookies and cream</h3>
-              </div>
+        <!-- Products Section-->
+        <section id="products" class="dark_container container-fluid">
+            <div class="section_2">
+                <h2>Elegí tu helado favorito</h2>
+                <h4>¿Cuál preferís probar hoy?</h4>
             </div>
-            <button class="carousel-control-prev carousel-btn" type="button" data-bs-target="#flavors_carousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <!-- Product options -->
+            <div class="row products">
+                <a class="col-lg-3 col-md-6 product_img" href="conos_y_paletas.html">
+                    <img class="img-fluid" src="images/conos.png" alt="conos y paletas"/>
+                </a>
+                <a class="col-lg-3 col-md-6 product_img" href="postres_helados.html">
+                    <img class="img-fluid" src="images/postres.png" alt="postres"/>
+                </a>
+                <a class="col-lg-3 col-md-6 product_img" href="pintas_y_baldes.html">
+                    <img class="img-fluid" src="images/pintas.png" alt="pintas"/>
+                </a>
+                <a class="col-lg-3 col-md-6 product_img" href="tortas_heladas.html">
+                    <img class="img-fluid" src="images/torta_helada.png" alt="tortas heladas"/>
+                </a>
+            </div>
+        </section>
+
+        <!-- Flavors Section -->
+        <section id="flavors" class="container-fluid">
+            <h2>Explorá nuestros sabores más populares</h2>
+
+            <!-- Carousel -->
+            <div id="flavors_carousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark" data-bs-interval="2500">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="flavor_img" src="images/flavors/alfajor_marplatense.jpg" class="d-block w-100" alt="Alfajor marplatense"/>
+                        <h3>Alfajor marplatense</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="flavor_img" src="images/flavors/chocorrica.jpg" class="d-block w-100" alt="Chocorrica"/>
+                        <h3>Chocorrica</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="flavor_img" src="images/flavors/mousse_de_chocolate_con_frutilla.jpg" class="d-block w-100" alt="Mousse de chocolate con frutilla"/>
+                        <h3>Mousse de chocolate con frutilla</h3>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="flavor_img" src="images/flavors/cookies_and_cream.jpg" class="d-block w-100" alt="Cookies and cream"/>
+                        <h3>Cookies and cream</h3>
+                    </div>
+                </div>
+
+                <!-- Carousel buttons -->
+                <button class="carousel-control-prev carousel-btn" type="button" data-bs-target="#flavors_carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-btn" type="button" data-bs-target="#flavors_carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <button class="btn btn-lg btn-outline-dark btn-flavors">
+                <a href="gustos.html">
+                    Ver más sabores <i class="fa-solid fa-arrow-right"></i>
+                </a>
             </button>
-            <button class="carousel-control-next carousel-btn" type="button" data-bs-target="#flavors_carousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </section>
+        </section>
 
+        <!-- Nosotros Section -->
+        <section id="about_us" class="dark_container container-fluid">
+            <div class="info">
+                <img class="local_front_img" src="images/local.png" alt="Local de Aloha"/>
+                <h2 class="sucursal">Heladerías Aloha, Puerto Madryn</h2>
+                <p>
+                    Somos una empresa comprometida con la satisfacción de nuestros
+                    clientes. Nuestras cremas heladas se elaboran con ingredientes de
+                    primera calidad que otorgan a cada producto un sabor cremoso e
+                    irresistible capaz de producir una explosión sensorial única. <br/>
+                    Te ofrecemos una experiencia única de sabor: Desde sabores clásicos
+                    como vainilla, chocolate y dulce de leche hasta exóticos y tropicales
+                    como banana, maracuyá y ananá. Dejate llevar al paraíso en cada
+                    bocado.
+                </p>
+                <p><strong>🕔 Horarios:</strong> De 12 del mediodía a 12 de la noche</p>
+                <p>
+                <strong>🗺️ Dónde encontrarnos:</strong><br />
+                <a href="">📍9 de Julio e Hipólito Yrigoyen</a> <br />
+                <a href="">📍España y Lombardo</a>
+                </p>
+            </div>
+        </section>
 
-    <!-- Nosotros Section -->
-    <section id="about_us" class="dark_container container-fluid">
-        <div class="info">
-            <img class="local_front_img" src="images/local.png" alt="Local de Aloha">
-            <h2 class="sucursal">Heladerías Aloha, Puerto Madryn</h2>
-            <p>Somos una empresa comprometida con la satisfacción de nuestros clientes. Nuestras cremas heladas 
-                se elaboran con ingredientes de primera calidad que otorgan a cada producto un sabor cremoso e 
-                irresistible capaz de producir una explosión sensorial única. <br>
-                Te ofrecemos una experiencia única de sabor: 
-                Desde sabores clásicos como vainilla, chocolate y dulce de leche hasta exóticos
-                y tropicales como banana, maracuyá y ananá. Dejate llevar al paraíso en cada bocado.
-            </p>
-            <p><strong>🕔 Horarios:</strong> De 12 del mediodía a 12 de la noche</p>
-            <p><strong>🗺️ Dónde encontrarnos:</strong><br>
-            <a href="">📍9 de Julio e Hipólito Yrigoyen</a> <br>
-            <a href="">📍España y Lombardo</a>
-        </div>
-    </section>
+        <!-- Social media and contact section -->
+        <section class="container-fluid">
+            <p><strong>📲 ¿Alguna consulta? Contactanos en nuestras redes sociales:</strong></p>
+            <a class="social" href="https://www.facebook.com/profile.php?id=61561618081490&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+            <a class="social" href="https://wa.me/+542804881974"><i class="fab fa-whatsapp"></i></a>
+            <a class="social" href=""> <i class="fas fa-envelope"></i></a>
+        </section>
+            
+        
+        <footer id="footer" class="container-fluid">
+            <p class="copyright">©2024 ALOSURMORA.SA Todos los derechos reservados</p>
+        </footer>
 
-    <footer id="footer" class="container-fluid">
-        <p><strong>📲 ¿Alguna consulta? Contactanos en nuestras redes sociales:</strong></p>
-        <a class="social" href="https://www.facebook.com/profile.php?id=61561618081490&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
-        <a class="social" href="https://wa.me/+542804881974"><i class="fab fa-whatsapp"></i></a>
-        <a class="social" href=""> <i class="fas fa-envelope"></i></a>
-        <p class="copyright">©2024 ALOSURMORA.SA Todos los derechos reservados</p>
-    </footer>
+        <!-- JQuery CDN -->
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
-
-    <!-- JQuery CDN -->
-    <script
-    src="https://code.jquery.com/jquery-3.7.1.js"
-    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-    crossorigin="anonymous"></script>
-    
-    <!-- My Javascript -->
-    <script src="script.js"></script>
-</body>
+        <!-- My Javascript -->
+        <script src="script.js"></script>
+    </body>
 </html>
