@@ -126,10 +126,6 @@ span{
     margin: 3%;
     background-color: #fce0c9;
 }
-.product_item{
-    display: inline-block;
-    float: left;
-}
 
 /* Flavors Section  */
 .flavor_img{
