@@ -82,10 +82,10 @@ span{
 }
 
 .home_img{
+    border-radius: 100%;
     display: block;
     height: auto;
     margin: auto;
-    transform: rotate(25deg);
     width: 100%;
 }
 
