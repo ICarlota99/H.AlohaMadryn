@@ -6,7 +6,9 @@ body{
     line-height: 1.5;
     padding-top: 5%;
 }
-
+h1, h2, h3, h4{
+    font-weight: bolder;
+}
 a{
     color: #fce0c9;
     text-decoration: underline;
@@ -36,6 +38,8 @@ span{
 /* Nav Bar Section*/
 #navbar_menu{
     padding: 0;
+    position: sticky;
+    top: 0;
 }
 .menu_list{
     padding-right: 30%;
@@ -57,7 +61,7 @@ span{
 }
 
 .nav-item{
-    padding: 0 3%;
+    padding: 0 2%;
     position: relative;
     text-align: right;
 }
@@ -120,10 +124,13 @@ span{
 }
 
 /* Postres helados */
-.postre_helado{
-    height: auto;
-    width: 20%;
-    object-fit: fill;
+.product{
+    margin: 3%;
+    background-color: #fce0c9;
+}
+.product_item{
+    display: inline-block;
+    float: left;
 }
 
 /* Flavors Section  */
