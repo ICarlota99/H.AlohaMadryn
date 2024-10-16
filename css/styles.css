@@ -135,7 +135,7 @@ span{
     color: white;
 }
 
-.info a:hover{
+.hvr_black:hover{
     color: black;
 }
 
@@ -185,11 +185,5 @@ span{
       .local_front_img{
         height: auto;
         width: 60%;
-    }
-}
-
-@media (max-width: 900px) {
-    .navbar .logo{
-        display: none;
     }
 }
