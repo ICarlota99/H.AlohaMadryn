@@ -158,6 +158,9 @@ span{
 }
 
 /* Footer */
+.media{
+    padding: 0 3%;
+}
 .social{
     color: black;
     display: inline-block;
@@ -171,7 +174,6 @@ span{
 
 .copyright{
     margin-top: 5%;
-    margin-bottom: 1%;
 }
 
 /* Mobile Phone Responsiveness */
