@@ -19,7 +19,7 @@ span{
 
 /* General css */
 .container-fluid{
-    padding: 6% 10%;
+    padding: 0% 10%;
 }
 
 .dark_container{
@@ -29,18 +29,13 @@ span{
 
 .sucursal{
     font-family: "Playwrite DK Loopet", cursive;
-    font-size: 150%;
     font-weight: bold;
-    padding: 1%;
     margin: 0;
 }
 
 /* Nav Bar Section*/
 #navbar_menu{
     padding: 0;
-}
-.menu_list{
-    padding-right: 30%;
 }
 
 .navbar-brand{
@@ -54,8 +49,8 @@ span{
 {
     display: inline-block;
     height: auto;
-    margin-left: 35%;
-    width: 20%;
+    padding-right: 7%;
+    width: 30%;
 }
 
 .nav-item{
@@ -66,7 +61,6 @@ span{
 
 .nav-link{
     color: white;
-    font-size: 1rem;
 }
 
 /* Home Section */
