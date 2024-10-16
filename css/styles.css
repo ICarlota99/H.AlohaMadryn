@@ -19,7 +19,7 @@ span{
 
 /* General css */
 .container-fluid{
-    padding: 0% 10%;
+    padding: 6% 10%;
 }
 
 .dark_container{
@@ -34,45 +34,25 @@ span{
 }
 
 /* Nav Bar Section*/
-#navbar_menu{
-    padding: 0;
-}
-
-.navbar-brand{
-    height: 20%;
-    margin: 0;
-    padding: 0;
-    width: 20%;
-}
-
-.logo
-{
-    display: inline-block;
-    height: auto;
-    padding-right: 7%;
-    width: 30%;
+#navbar_div{
+    padding-top: 0.5% !important;
+    padding-bottom: 0.5% !important;
 }
 
 .nav-item{
+    color: white;
     padding: 0 2%;
     position: relative;
     text-align: right;
-}
-
-.nav-link{
-    color: white;
 }
 
 /* Home Section */
 .title{
     font-size: 400%;
 }
-.home_text{
-    padding-top: 10%;
-}
+
 .h-img{
     position: relative;
-    padding-top: 3%;
 }
 
 .home_img{
