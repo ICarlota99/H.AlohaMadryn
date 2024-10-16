@@ -29,6 +29,7 @@ span{
 
 .sucursal{
     font-family: "Playwrite DK Loopet", cursive;
+    font-size: 150%;
     font-weight: bold;
     margin: 0;
 }
@@ -166,20 +167,20 @@ span{
 }
 
 /* Mobile Phone Responsiveness */
-@media (max-width: 500px) {
+@media (max-width: 540px) {
     p {
       font-size: 14px;
     }
 
     #navbar_div{
-        padding: 0% !important;
+        padding: 0.3% !important;
     }
     .title {
         font-size: 40px;
         line-height: 1.2;
       }
     .sucursal {
-        font-size: 18px;
+        font-size: 16px;
     }
     .flavor_img{
         width: 70%;
@@ -188,5 +189,4 @@ span{
         height: auto;
         width: 60%;
     }
-
 }
