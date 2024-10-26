@@ -155,6 +155,8 @@ span{
 .social{
     color: black;
     display: inline-block;
+    height: auto;
+    width: 3rem;
     padding: 1% 3%;
     text-decoration: none;
 }
